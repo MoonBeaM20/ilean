@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Proviso test Suite]" parallel="methods">
+  <test thread-count="1" name="Proviso Demo Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.wk.ilean.testscripts.DemoTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.wk.ilean.testscripts.DemoTest -->
+    </classes>
+  </test> <!-- Proviso Demo Test(failed) -->
+</suite> <!-- Failed suite [Proviso test Suite] -->

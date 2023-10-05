@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- document encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- title of the document -->
+        <documentTitle>Proviso Automation</documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>
+            <![CDATA[
+                <img src='./proviso_logo.gif' />
+                &nbsp;&nbsp;&nbsp;<b><font color=#23A4F5 size=4>ProViso Automation Report</font></b>
+            ]]>
+        </reportName>
+
+        <!-- report headline - displayed at top-nav, after reportHeadline -->
+        
+        <reportHeadline></reportHeadline>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+
+                });
+            ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                .report-name { padding-left: 28px; } .report-name > img { float: left;height: 45px;margin-left: 30px;margin-top: 2px;width: auto; }
+                .report-headline { padding-left: 60px; }}
+                
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
