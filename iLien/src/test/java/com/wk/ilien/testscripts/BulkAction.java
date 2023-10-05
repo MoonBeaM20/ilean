@@ -11,11 +11,11 @@ import com.wk.ilien.common.UtilLib;
 import com.wk.ilien.pages.ClusterPage;
 import com.wk.ilien.pages.GlobalSearchPage;
 import com.wk.ilien.pages.LoginPage;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.reporting.Reporting;
 
 
-public class BulkAction extends ILeanControls {
+public class BulkAction extends ILienControls {
 	PageGenerics pg = new PageGenerics();
 	// String userPassword = UtilLib.readSpecificColumnValue(pg.getTestData(), "WK
 	// Internal Account", 1);

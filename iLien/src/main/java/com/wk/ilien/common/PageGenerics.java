@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.LogStatus;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.controlsLibrary.webControls.WebControlsLibrary;
 import com.wk.ilienframework.reporting.Logger;
 import com.wk.ilienframework.reporting.Reporting;
@@ -31,7 +31,7 @@ import com.wk.ilienframework.reporting.Reporting;
  * Generic methods which can be used across all pages
  */
 
-public class PageGenerics extends ILeanControls {
+public class PageGenerics extends ILienControls {
 
 	public ThreadLocal<WebControlsLibrary> _webcontrols;
 	private String pageName = "Page Generics";

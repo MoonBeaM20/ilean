@@ -23,7 +23,7 @@ import com.wk.ilienframework.controlsLibrary.webControls.WebControlsLibrary;
 import com.wk.ilienframework.drivers.webDriverFactory.WebDriverFactory;
 import com.wk.ilienframework.reporting.Reporting;
 
-public class ILeanControls {
+public class ILienControls {
 
 	private String browserName = System.getProperty("browser");
 	private String deviceName = System.getProperty("device");

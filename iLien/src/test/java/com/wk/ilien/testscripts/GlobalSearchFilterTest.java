@@ -11,10 +11,10 @@ import org.testng.annotations.Test;
 
 import com.wk.ilien.pages.GlobalSearchPage;
 import com.wk.ilien.pages.LoginPage;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.controlsLibrary.webControls.CustomWebControls;
 
-public class GlobalSearchFilterTest extends ILeanControls  {
+public class GlobalSearchFilterTest extends ILienControls  {
 
 	private String username = "testAdminUser@wolterskluwer.com";
 	private String password = "Test@123";

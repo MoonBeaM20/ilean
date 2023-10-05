@@ -1,7 +1,7 @@
 package com.wk.ilien.testscripts;
 
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 
-public class LoginTest extends ILeanControls {
+public class LoginTest extends ILienControls {
 
 }

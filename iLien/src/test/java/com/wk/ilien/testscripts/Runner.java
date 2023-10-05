@@ -1,5 +1,6 @@
 package com.wk.ilien.testscripts;
 
+import java.awt.AWTException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -14,8 +15,10 @@ import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 import com.wk.ilien.common.UtilLib;
+import com.wk.ilien.pages.LoginPage;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 
-public class Runner {
+public class Runner extends ILienControls {
 
 	Map<String, ArrayList<String>> data = UtilLib.readTestDataSheet("", "materiality_data.xlsx", "Sheet1");
 	
@@ -42,6 +45,12 @@ public class Runner {
 		System.out.println(data);
 		Map<String, String> data2 = readDataFromRow("", "materiality_data.xlsx", "Sheet1", 2);
 		System.out.println(data2);
+	}
+	
+	@Test
+	public void ilien_login() throws AWTException {
+		LoginPage loginPage = new LoginPage(_webcontrols);
+		loginPage.loginToiLien("331665", "Viaan@71285**");
 	}
 	
 	public List<Map<String, String>> getSheetRowCount(String filePath, String fileName, String sheetName) {

@@ -14,10 +14,10 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 import com.wk.ilien.pages.LoginPage;
 import com.wk.ilien.pages.SubjectGuidesPage;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.reporting.Reporting;
 
-public class SubjectGuidesPageTest extends ILeanControls {
+public class SubjectGuidesPageTest extends ILienControls {
 	private String username = "testAdminUser@wolterskluwer.com";
 	private String password = "Test@123";
 	

@@ -20,9 +20,9 @@ import com.codoid.products.fillo.Recordset;
 import com.wk.ilien.pages.GlobalSearchPage;
 import com.wk.ilien.pages.LoginPage;
 import com.wk.ilien.pages.MaterialityPage;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 
-public class MaterialityPageTestV2 extends ILeanControls {
+public class MaterialityPageTestV2 extends ILienControls {
 
 	private String internalUser = "testAdminUser@wolterskluwer.com";
 	private String externalUser = "admin.expert@abcbank.com";

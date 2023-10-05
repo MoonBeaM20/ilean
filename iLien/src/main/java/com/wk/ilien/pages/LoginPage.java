@@ -38,9 +38,9 @@ public class LoginPage extends PageGenerics {
 		
 		
 
-		_webcontrols.get().launchUrl("Launch application", "https://qa-proviso.wolterskluwer.com");
+		_webcontrols.get().launchUrl("Launch application", "https://staging2.ilienonline.com/iLienMVP/Portfolio/Home");
 
-		reportPass("Login to Proviso application", "Sucessfully navigate to Proviso application", "loginPage");
+		reportPass("Login to iLien application", "Sucessfully navigate to iLien application", "loginPage");
 
 		_webcontrols.get().enterText("Enter user name", loginPageOR.getProperty("txtUserName"), uname);
 
@@ -49,8 +49,8 @@ public class LoginPage extends PageGenerics {
 		if (_webcontrols.get().click("Clicked on Sign in button", loginPageOR.getProperty("btnSignIn"))) {
 			reportPass("Click on Sign in button in Proviso application", "Sucessfully clicked on sign in button", "loginPage");
 			if (_webcontrols.get().waitUntilElementIsVisible("Sucessfully redirected to home page",
-					loginPageOR.getProperty("homePageExpand"), timeOut, true)) {
-				reportPass("Verify user in home page ", "Sucessfully navigate to Proviso home page", "homepage");
+					loginPageOR.getProperty("ilienLogo"), timeOut, true)) {
+				reportPass("Verify user in home page ", "Sucessfully navigate to iLien home page", "homepage");
 
 				try {
 					Thread.sleep(100);
@@ -69,6 +69,10 @@ public class LoginPage extends PageGenerics {
 		robot.keyRelease(KeyEvent.VK_SUBTRACT);
 		return false;
 
+	}
+	
+	public boolean loginToiLien(String username, String password) throws AWTException {
+		return loginToProViso(username, password);
 	}
 
 	public boolean logOutFromProViso() {

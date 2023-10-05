@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wk.ilien.testscripts.MaterialityPageTest">
+      <class name="com.wk.ilien.testscripts.ILienTests">
         <methods>
-          <include name="beforeSuite"/>
           <include name="setup"/>
+          <include name="createEsitimatesTest"/>
           <include name="beforeMethod"/>
-          <include name="test_tc_01"/>
+          <include name="beforeSuite"/>
         </methods>
-      </class> <!-- com.wk.ilien.testscripts.MaterialityPageTest -->
+      </class> <!-- com.wk.ilien.testscripts.ILienTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

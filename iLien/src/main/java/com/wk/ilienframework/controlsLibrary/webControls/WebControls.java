@@ -32,7 +32,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.google.common.base.Function;
 import com.relevantcodes.extentreports.LogStatus;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.controlsLibrary.utilities.PropFileHandler;
 import com.wk.ilienframework.reporting.Logger;
 import com.wk.ilienframework.reporting.Reporting;
@@ -2876,7 +2876,7 @@ public class WebControls extends WebControlsLibrary {
 				element = driverWait.until(waitForElement);
 
 			}
-			if (ILeanControls.viewPort.toLowerCase().equalsIgnoreCase("yes")) {
+			if (ILienControls.viewPort.toLowerCase().equalsIgnoreCase("yes")) {
 				viewPortElement(element);
 			}
 			return element;

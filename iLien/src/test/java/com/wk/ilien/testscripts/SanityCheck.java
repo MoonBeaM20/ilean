@@ -13,10 +13,10 @@ import com.wk.ilien.pages.GlobalSearchPage;
 import com.wk.ilien.pages.HomePage;
 import com.wk.ilien.pages.LoginPage;
 import com.wk.ilien.pages.Requirement;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.reporting.Reporting;
 
-public class SanityCheck extends ILeanControls  {
+public class SanityCheck extends ILienControls  {
 	PageGenerics pg = new PageGenerics();
 	String pwd = "Test@123";
 	

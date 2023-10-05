@@ -12,12 +12,12 @@ import com.wk.ilien.pages.ClusterPage;
 import com.wk.ilien.pages.GlobalSearchPage;
 import com.wk.ilien.pages.LoginPage;
 import com.wk.ilien.pages.Requirement;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.reporting.Reporting;
 
 import java.awt.AWTException;
 
-public class Filters extends ILeanControls {
+public class Filters extends ILienControls {
 	PageGenerics pg = new PageGenerics();
 	// String userPassword = UtilLib.readSpecificColumnValue(pg.getTestData(), "WK
 	// Internal Account", 1);

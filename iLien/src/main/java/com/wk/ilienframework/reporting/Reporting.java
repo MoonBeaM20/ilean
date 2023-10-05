@@ -45,7 +45,7 @@ import org.testng.Reporter;
 import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.controlsLibrary.utilities.PropFileHandler;
 
 import io.appium.java_client.windows.WindowsDriver;

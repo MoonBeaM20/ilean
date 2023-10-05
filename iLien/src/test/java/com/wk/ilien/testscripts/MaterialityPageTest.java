@@ -20,10 +20,10 @@ import com.relevantcodes.extentreports.LogStatus;
 import com.wk.ilien.pages.GlobalSearchPage;
 import com.wk.ilien.pages.LoginPage;
 import com.wk.ilien.pages.MaterialityPage;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.reporting.Reporting;
 
-public class MaterialityPageTest extends ILeanControls {
+public class MaterialityPageTest extends ILienControls {
 	
 	private String internalUser = "testAdminUser@wolterskluwer.com";
 	private String externalUser = "admin.expert@abcbank.com";

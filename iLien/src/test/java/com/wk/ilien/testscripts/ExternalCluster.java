@@ -13,10 +13,10 @@ import com.wk.ilien.pages.ExternalFlow;
 import com.wk.ilien.pages.GlobalSearchPage;
 import com.wk.ilien.pages.LoginPage;
 import com.wk.ilien.pages.Requirement;
-import com.wk.ilienframework.controlsLibrary.iLeanControls.ILeanControls;
+import com.wk.ilienframework.controlsLibrary.iLeanControls.ILienControls;
 import com.wk.ilienframework.reporting.Reporting;
 
-public class ExternalCluster extends ILeanControls {
+public class ExternalCluster extends ILienControls {
 	
 	PageGenerics pg = new PageGenerics();
 	// String userPassword = UtilLib.readSpecificColumnValue(pg.getTestData(), "WK
